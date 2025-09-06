@@ -99,7 +99,9 @@ jupyter notebook notebooks/Crop_Yield_Model.ipynb
 ## 📈 Model Performance
 
 The CatBoost model provides:
-- High accuracy predictions with robust handling of categorical variables
+- Robust handling of categorical variables
+- R2 Score- 0.9780
+- Root Mean Square Value- 0.1465
 - Feature importance analysis to understand key yield drivers
 - Visualization of prediction vs actual yield patterns
 
