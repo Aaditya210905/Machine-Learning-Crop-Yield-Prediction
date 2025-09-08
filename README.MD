@@ -70,7 +70,7 @@ jupyter>=1.0.0
 Run the preprocessing and model training pipeline:
 
 ```bash
-python src/train_model.py
+python -m src.train_model
 ```
 
 This will:
@@ -85,7 +85,7 @@ This will:
 Predict yield for a new sample:
 
 ```bash
-python src/predict_sample.py
+python -m src.predict_sample
 ```
 
 ### Interactive Analysis
